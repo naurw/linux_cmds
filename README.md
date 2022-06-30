@@ -12,8 +12,8 @@
 * create a **new** branch 
 `git checkout my_branch_name` 
 * **switch to a branch** in **local** repo 
-`git pull <br />
-git checkout --track origin/my_branch_name`
+`git pull` <br />
+`git checkout --track origin/my_branch_name`
 * **switch to a branch** that came from a **remote** repo 
 
 
@@ -21,6 +21,6 @@ git checkout --track origin/my_branch_name`
 `git push -u origin my_branch_name`
 * push to a branch if your local branch **does not exist on the remote**
 `git push`
-* push to a branch if your local branch **already exists on the remote`
+* push to a branch if your local branch **already exists on the remote
 `git merge my_branch_name 
 * merge a brach after checking which is your working branch & switching to the right branch 
